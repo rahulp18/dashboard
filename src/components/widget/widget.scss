@@ -1,0 +1,55 @@
+.widget-box{
+    flex: 1;
+    box-shadow: 1px 1px 3px -1px rgba(99,95,99,1);
+    border-radius: 5px;
+    height: auto;
+    padding: 10px 15px;
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item{
+        margin: 9px 0px;
+         
+        p{
+           
+                color: #a59595;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+ 
+           display: flex;
+           align-items: center;
+        
+        }
+        h4{
+            font-size: 25px;
+        }
+        .link
+        {
+          text-decoration: underline;
+            font-size: 12px;
+      
+            color: gray;
+            cursor: pointer;
+
+
+            &:hover{
+                color: lightgray;
+                transition:color  0.2s ease-in-out;
+            }
+        }
+        .icon{
+          
+            border-radius: 3px;
+            padding: 5px;
+        }
+        .possitive{
+            color: rgb(28, 224, 28);
+        }
+        .negative{
+            color: red;
+        }
+    }
+
+}

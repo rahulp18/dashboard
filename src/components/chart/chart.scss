@@ -1,0 +1,56 @@
+.chart-container{
+    flex: 3;
+    padding: 10px 12px;
+    box-shadow: 1px 1px 3px -1px rgba(99,95,99,1);
+    .chart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px 12px;
+        margin-top: 25px;
+        p,h3{
+            color: gray;
+        }
+        p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+    .flex{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    h5{
+        font-size: 15px;
+   
+    text-transform: capitalize;
+    }
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .target{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-weight: 700;
+            .possitive{
+                color: rgb(22, 194, 22);
+            }
+            .negative{
+                color: rgb(231, 22, 22);
+            }
+            p{
+                text-align: center;
+            }
+            h4{
+                color: gray;
+            }
+        }
+    }
+}

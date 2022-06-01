@@ -1,0 +1,12 @@
+.main-container{
+ 
+    flex: 6;
+    .widget,.charts{
+        display: flex;
+        gap: 10px;
+        margin: 22px;
+    }
+    .charts{
+        margin-top: 10px;
+    }
+}

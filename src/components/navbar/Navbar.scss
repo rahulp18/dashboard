@@ -1,0 +1,74 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px ;
+    border-bottom: 1px dotted rgb(60, 56, 56);
+    height: 50px;
+    .search-box{
+        display: flex;
+        align-items: center;
+        font-size: 29px;
+        border: 1px solid rgb(175, 175, 175);
+        padding: 2px 5px;
+        border-radius: 8px;
+        color: gray;
+        svg{
+            cursor: pointer;
+        }
+    }
+    input{
+        border: none;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+
+        .profile-image{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+        p,span{
+            margin: 2px 15px;
+            text-align: center;
+            display: flex;
+            font-size: 19px;
+            align-items: center;
+            font-weight: 400;
+            cursor: pointer;
+            transform: scale(1,1);
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: transform 0.3s ease-in-out;
+               
+            }
+        }
+        .parrent{
+            position: relative;
+            .badge{
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                background-color: red;
+                border-radius: 50%;
+                color: white;
+                font-weight: 700;
+                font-size: 12px;
+                padding: 0px 4px;
+
+            }
+        }
+    }
+}
