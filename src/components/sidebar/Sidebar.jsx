@@ -8,7 +8,7 @@ import {AiOutlineBarChart,AiOutlineLogout} from 'react-icons/ai'
 import {MdNotifications} from 'react-icons/md'
 import {SiWorldhealthorganization} from 'react-icons/si'
 import {GrSettingsOption} from 'react-icons/gr'
- 
+import {Link} from 'react-router-dom'
  
 import {CgProfile} from 'react-icons/cg'
 
@@ -20,13 +20,13 @@ const Sidebar = () => {
         </div>
         <div className="center">
             <div className="main">
-               <img src={dashImg} alt='dashboard' className='dashImage' /> <h4>Dashboard</h4>
+               <img src={dashImg} alt='dashboard' className='dashImage' /> <h4> <Link to='/'>Dashboard</Link> </h4>
             </div>
             <div className="box-container">
               <p>Lists</p>
               <div className="box">
                 <div className="flex item">
-<FaUserTie /> User
+ <Link to='/users'><FaUserTie /> User </Link> 
                 </div>
                 <div className="flex item">
 <FaWarehouse /> Poducts
