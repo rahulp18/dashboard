@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.scss'
 import {Navbar,Chart,Featured,Widget} from '../../components'
+import Table from '../Table/Table'
  
 const Main = () => {
   return (
@@ -19,6 +20,10 @@ const Main = () => {
  
   <Chart/>
   <Featured/>
+</div>
+<div className="tableC">
+ <h4 className="title">Latest Transaction</h4>
+ <Table/>
 </div>
     </div>
   )

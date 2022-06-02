@@ -1,5 +1,5 @@
 .main-container{
- 
+ overflow-y:scroll ;
     flex: 6;
     .widget,.charts{
         display: flex;
@@ -8,5 +8,14 @@
     }
     .charts{
         margin-top: 10px;
+    }
+    .tableC{
+        margin: 22px;
+        
+       padding: 10px;
+        box-shadow: 1px 1px 3px -1px rgba(99,95,99,1);
+        .title{
+            margin-bottom: 32px;
+        }
     }
 }

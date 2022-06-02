@@ -1,5 +1,13 @@
 .featured{
     flex: 6;
-     
+     padding: 10px;
     box-shadow: 1px 1px 3px -1px rgba(99,95,99,1);
+    color: gray;
+    font-weight: 700;
+    .title{
+        margin-bottom: 10ox;
+    }
+    .chartgrid{
+        stroke: lightgray;
+    }
 }
